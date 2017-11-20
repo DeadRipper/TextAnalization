@@ -35,7 +35,7 @@ namespace TextAnalizator
                     if (ch == text[l]) i++;
 
                 }
-                listBox1.Items.Add(ch + "  повторяется " + i.ToString() + " раз ");
+                listBox1.Items.Add(ch + "  повторяется " + i.ToString() + " раз "+ " - частота:"+text[i]/textBox1.Text.Length);
             }
         }
     }
